@@ -22,23 +22,23 @@ public class CameraShots : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp("1") || Input.GetButtonDown("WideCam"))
+        if (Input.GetKeyUp("1") /*|| Input.GetButtonDown("WideCam")*/)
         {
             WideCam();
         }
-        if (Input.GetKeyUp("2") || Input.GetButtonDown("MidCam"))
+        if (Input.GetKeyUp("2") /*|| Input.GetButtonDown("MidCam")*/)
         {
             MidCam();
         }
-        if (Input.GetKeyUp("3") || Input.GetButtonDown("CloseCam"))
+        if (Input.GetKeyUp("3") /*|| Input.GetButtonDown("CloseCam")*/)
         {
             CloseCam();
         }
-        if (Input.GetKeyUp("4") || Input.GetButtonDown("OtoCam"))
+        if (Input.GetKeyUp("4") /*|| Input.GetButtonDown("OtoCam")*/)
         {
             OtoCam();
         }
-        if (Input.GetKeyUp("0") || Input.GetButtonDown("MainCam"))
+        if (Input.GetKeyUp("0") /*|| Input.GetButtonDown("MainCam")*/)
         {
             MainCam();
         }
